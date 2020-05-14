@@ -1,0 +1,28 @@
+body {
+background: #828489;
+}
+section{
+    background: #ffffff;
+}
+
+h1{
+    color: #36214e;
+}
+h2{
+    color: #9197AE;
+}
+p{
+    color: #080808;
+}
+.pink-header{
+    color: rgb(83, 19, 57);
+}
+#top{
+    background-color: #F0EDEE;
+}
+a{
+    color: rgb(109, 65, 7);
+}
+nav a{
+    color: #EEC643;
+}
