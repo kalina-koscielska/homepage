@@ -5,57 +5,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="nauka-html.html">Nauka html</a>
+    <header class="header">
+        <nav class="navigation">
+            <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+            <a class="navigation__link" href="nauka-html.html">Nauka html</a>
+            <a class="navigation__link" href="z-innej-beczki.html">Z innej beczki</a>
         </nav>
     </header>
 
-    <main>
+    <main class="main">
 
         <header id="top">
-            <h1 class="pink-header"> Początki znajomości z frontendem WTF</h1>
+            <h1 class="main-heading main-heading--js"> Początki znajomości z frontendem WTF</h1>
         </header>
 
         <section>
-            <h2 class="pink-header">Jak do tego doszło?</h2>
-            <p> Kris wysyła link do szkolenia <a href="https://cotenfrontend.pl"> WTF </a></p>
-                Wszystko wygląda fajnie. Decyduję się. <a href="#notatki">Opis tygodni</a></p>
-                <img src="korsan-header.jpg" alt="Uśmiechnięty Korsan"/>
+            <h2 class="secondary-heading">Jak do tego doszło?</h2>
+            <p class="about-the-beginning"> Kris wysyła link do szkolenia <a class="about-the-beginning__link--www" href="https://cotenfrontend.pl"> WTF </a>
+                Wszystko wygląda fajnie. Decyduję się. <a class="bout-the-beginning__link--notes" href="#notatki">Opis tygodni</a></p>
+                <img class="about-the-beginning__picture" src="korsan-header.jpg" alt="Uśmiechnięty Korsan"/>
         </section>
 
         <section id="notatki">
-            <h2>Zaczynamy!</h2>
+            <h2 class="secondary-heading">Zaczynamy!</h2>
 
-            <article>
-                <h3>I tydzień kursu.</h3>
-                <p><strong> Słucha się przyjemnie, jest optymizm. </strong> <br>
+            <article class="week-summary week-summary--special">
+                <h3 class="week-summary__title">I tydzień kursu.</h3>
+                <p class="week-summary__description">Słucha się przyjemnie, jest optymizm.
                     Konfiguracja sprzętu <b>zaczynają się schody...</b></p>
             </article>
 
-            <article>
-                <h3>II tydzień kursu</h3>
-                <p>WTF...tylko po angielsku. I co oni na tym slacku poszaleli...<em>ale zaczyna coś wychodzić o
+            <article class="week-summary">
+                <h3 class="week-summary__title">II tydzień kursu</h3>
+                <p class="week-summary__description">WTF...tylko po angielsku. I co oni na tym slacku poszaleli...<em>ale zaczyna coś wychodzić o
                         dziwo.</em></p>
             </article>
 
-            <article>
-                <h4>III tydzień kursu</h4>
-                <p>No dobra, teraz to już jakiś żart ze mnie tu jest poczyniony, <i>że ja tu świadomie wdepnęłam.</i>
+            <article class="week-summary">
+                <h4 class="week-summary__title">III tydzień kursu</h4>
+                <p class="week-summary__description">No dobra, teraz to już jakiś żart ze mnie tu jest poczyniony, <i>że ja tu świadomie wdepnęłam.</i>
                 </p>
-            </article>
+                <p class="week-summary__description week week-summary__description--js"></p>
 
+            <section>
+              <h4>Lista fajnych znaczników</h4>
+              <ul class="list">
+                  <li class="list__item">UL</li>
+                  <li class="list__item">LI</li>
+                  <li class="list__item">OL</li>
+                  <li class="list__item">SECTION</li>
+              </ul>
+            </section>
+
+            <section>
+                <h4>Kroki do zrobienia dobrego HTML-a</h4>
+                <ol>
+                    <li>Przeanalizuj treść</li>
+                    <li>Podziel je na sekcje</li>
+                    <li>Utwórz pierwszą wersję kodu</li>
+                </ol>
+              </section>
+         
+            </article>
         </section>
 
     </main>
 
-    <footer>
-        To jest tylko początek, aż strach co dalej.<a href="#top">Idz na górę strony</a>
+    <footer class="footer">
+        To jest tylko początek, aż strach co dalej.<a class="footer__link" href="#top">Idz na górę strony</a>
     </footer>
     <script src="main.js"></script>
 </body>

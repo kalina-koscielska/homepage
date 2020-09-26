@@ -1,24 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *: before, *:after{
+  box-sizing: inherit;
+}
 body {
-background: #828489;
+  background: #828489;
 }
-section{
-    background: #ffffff;
+nav {
+  color: #311531;
+  background: #e3e8f5;
 }
-h2{
-    color: #9197AE;
+section {
+  background: #ffffff;
 }
-p{
-    color: #080808;
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
 }
-.pink-header{
-    color: rgb(49, 6, 32);
+.main-heading {
+  color: rgb(49, 6, 32);
 }
-#top{
-    background-color: #F0EDEE;
+.secondary-heading {
+  color: #101733;
 }
-a{
-    color: rgb(109, 65, 7);
+.special-heading {
+  color: #06153f;
 }
-nav a{
-    color: #EEC643;
+p {
+  color: #080808;
 }
+#top {
+  background-color: #f0edee;
+}
+#notatki {
+  color: #2e2203
+}
+.week-summary {
+  padding: 16px;
+  border: 1px #ccc solid;
+  margin-bottom: 16px;
+}
+
+.week-summary--special {
+  border: 1px #92140c solid;
+}
+
+.week-summary__description {
+  color: #92140c;
+}
+
+.week-summary__title {
+  color: #21a179;
+}
+.list {
+  list-style: decimal;
+}
+.footer {
+  background: #ffffff;
+  color: #080808;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
