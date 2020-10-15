@@ -9,37 +9,36 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="nauka-html.html">Nauka html</a>
-        <a href="z-innej-beczki.html">Z innej beczki</a>
+    <header class="header">
+      <nav class="navigation">
+          <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+          <a class="navigation__link" href="nauka-html.html">Nauka html</a>
+          <a class="navigation__link" href="z-innej-beczki.html">Z innej beczki</a>
       </nav>
-    </header>
+  </header>
 
-    <main>
+    <main class="main">
       <header id="top">
         <h1 class="main-heading">Nauka HTML</h1>
       </header>
 
       <section>
         <h2 class="secondary-heading">Nawigacja</h2>
-        <p>
-          Rąbnęłam się w tracie, ale doszłam sama naprawienia błędu, co cieszy.
+        <p class="about-the-navigation">
+          Nawigację tworzymy w header, poza main. 
         </p>
       </section>
 
       <section id="notatki">
-        <h2>Dalsze kolory</h2>
-
+        <h2 class="secondary-heading">CSS II</h2>
         <article>
           <h3 class="special-heading">Zewnętrzne strony</h3>
-          <p>Podać później odnosnik do strony.</p>
+          <p class="special-heading special-heading__link">Podać później odnosnik do strony.</p>
         </article>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       Pamiętaj! To jest miejsce na ruszenie mózgiem.<a href="#top">Idz na górę strony</a>
     </footer>
   </body>
