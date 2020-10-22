@@ -3,7 +3,7 @@ const age = 37;
 
 console.log(firstName);
 console.log(age);
-alert("Hej");
+
 
 
 const heading = document.querySelector('.main-heading--js');

@@ -7,14 +7,21 @@ html {
   box-sizing: inherit;
 }
 body {
-  background: #828489;
+  background: #010325;
 }
 nav {
-  color: #311531;
-  background: #e3e8f5;
+  margin: 10px;
+  padding: 16px;
+  border: solid  #05215e;
+  border-radius: 5px;
+  background:  #78899c;
 }
 section {
-  background: #ffffff;
+  background: #eaebe4;
+}
+.navigation__link {
+  color: #080808;
+  display: inline-block;
 }
 .main {
   max-width: 1000px;
@@ -22,6 +29,9 @@ section {
 }
 .main-heading {
   color: rgb(49, 6, 32);
+}
+.main-heading main-heading--js {
+  background: #eaebe4;
 }
 .secondary-heading {
   color: #101733;
@@ -39,29 +49,35 @@ p {
   color: #2e2203
 }
 .week-summary {
+  width: 1000px;
+  height: 200px;
   padding: 16px;
-  border: 1px #ccc solid;
+  border: 5px;
+  border-style: solid;
+  border-color: #531911;
   margin-bottom: 16px;
+  box-sizing: border-box;
+  overflow: auto;
 }
-
 .week-summary--special {
-  border: 1px #92140c solid;
+  border: 5px solid #531911;
 }
-
-.week-summary__description {
-  color: #92140c;
-}
-
 .week-summary__title {
-  color: #21a179;
+  color: #2b2806;
+}
+.about-the-beginning__picture {
+  border-radius: 50%;
+  width: 50%;
+  padding: 5% 25%
 }
 .list {
   list-style: decimal;
 }
 .footer {
-  background: #ffffff;
+  background: #78899c;
   color: #080808;
   max-width: 1000px;
   margin: 0 auto;
+  border: 15px;
 }
 
